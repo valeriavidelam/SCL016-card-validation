@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vincular tarjeta</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header></header>
+  <div id="header">
+    <img class="foto1" src="images/logoapp.png" alt="Logoapp" onclick="location.href='index.html'"> 
+  </div>
+  </header> 
+
+  <main>
+  <div id="inputBox">
+    
+    <p1>NOMBRE COMPLETO</p1>  
+    <input type="text" id="Name" placeholder="Ingrese aquí su nombre">
+
+
+    <p1>NÚMERO DE TARJETA</p1>
+    <input type="text" id="numberTC" placeholder="1234-5678-9123-4567" maxlength="16" required>
+
+     <p3>FECHA DE EXPIRACIÓN</p3> 
+    <input type="text" id="expiration" placeholder="MM/YY" maxlength="5">
+
+    <p4>CVV</p4> 
+    <input type="text" id="cvv" placeholder="123" maxlength="3">
+
+  </div>
+  <div>  
+    <input class="validarTC" type="submit" value="INGRESAR TARJETA" id="validarTC">
+  </div>
+  
+
+  <script src="vinculartarjeta.js" type="module"></script>
+
+  <!-- These are other little buttons but with icons that don't work (yet)-->
+  <button class="Locales" type="button"> </button>
+  <img class="icon1" src="images/placeholder-filled-point.png" alt="Locales">
+
+  <button class="Historial" type="button"> </button>
+  <img class="icon2" src="images/history.png" alt="Historial">
+
+  <button class="Search" type="button"> </button>
+  <img class="icon3" src="images/search.png" alt="Search">
+
+  <button class="User" type="button"> </button>
+  <img class="icon4" src="images/user.png" alt="User">
+
+  <button class="QRCode" type="button"> </button>
+  <img class="icon5" src="images/qr-code.png" alt="QRCode">
+  </main>
+</body>
+
+</html>

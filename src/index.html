@@ -2,13 +2,66 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>MercadoApp</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <header>
+      <img class="foto1" src="images/logoapp.png" alt="Logoapp"> 
+    </header>
+
+    <main> 
+      <div class="form-welcome">
+        <br>
+        <p1>¡Hola <strong>Valeria</strong>!</p1> <br>
+        <p2>Aquí está tu resumen de <em><strong>FEBRERO</strong></em></p2><br>
+        <br>
+        <p3 style="color: #C7483F;"> <strong> $10.000    </strong></p3><p4><strong> GASTADO</strong></p4>
+        <br>
+        <p5 style="color: #C7483F;"><strong> 3    </strong></p5><p6><strong> TRANSACCIONES</strong></p6>
+      </div>
+
+      <!-- I create buttons with attributes to show the "adittional content" 
+      (These still don't work yet, they are only for decoration but I want to improve it later.) -->
+
+      <button class="Catálogo"
+        type="button">
+        CATÁLOGO
+      </button>
+      <button class="Cupones"
+        type="button">
+        CUPONES
+      </button>
+
+    <!-- This is the only one that works because it directs us to the other page-->
+      <button class="Ayuda" type="button" onclick="location.href='ayuda.html'"> 
+        AYUDA
+      </button>
+     
+    <!-- These are other little buttons but with icons that don't work (yet)-->
+      <button class="Locales" type="button"> </button>
+      <img class="icon1" src="images/placeholder-filled-point.png" alt="Locales">
+
+      <button class="Historial" type="button"> </button>
+      <img class="icon2" src="images/history.png" alt="Historial">
+
+      <button class="Search" type="button"> </button>
+      <img class="icon3" src="images/search.png" alt="Search">
+
+      <button class="User" type="button"> </button>
+      <img class="icon4" src="images/user.png" alt="User">
+
+      <button class="QRCode" type="button"> </button>
+      <img class="icon5" src="images/qr-code.png" alt="QRCode">
+
+      
+    </main>
+   
+    <footer>
+    </footer>
   </body>
 </html>

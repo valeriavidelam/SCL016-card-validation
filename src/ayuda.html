@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayuda</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -12,27 +14,39 @@
     </header>
     <main>
       
-      <button class="Perfil"
+    <button class="Perfil"
         type="button">
     MI PERFIL
-      </button>
-      <button class="Puntos"
+    </button>
+    <button class="Puntos"
         type="button">
     PUNTOS 
-      </button>
-      <button class="Metodosdepago"
-      type="button">
-    MÉTODOS DE PAGO
     </button>
-      <a class="Metodosdepago" href="metododepago.html">MÉTODOS DE PAGO</a>
-     
-      
-    
+    <button class="Metodosdepago" type="button" onclick="location.href='metododepago.html'"> MÉTODOS DE PAGO
+    </button>
+ 
+       
+    <!-- These are other little buttons but with icons that don't work (yet)-->
+    <button class="Locales" type="button"> </button>
+    <img class="icon1" src="images/placeholder-filled-point.png" alt="Locales">
+
+    <button class="Historial" type="button"> </button>
+    <img class="icon2" src="images/history.png" alt="Historial">
+
+    <button class="Search" type="button"> </button>
+    <img class="icon3" src="images/search.png" alt="Search">
+
+    <button class="User" type="button"> </button>
+    <img class="icon4" src="images/user.png" alt="User">
+
+    <button class="QRCode" type="button"> </button>
+    <img class="icon5" src="images/qr-code.png" alt="QRCode">
+
+  
     </main>
    
     <footer>
       
     </footer>
-    <script src="index.js" type="module"></script>
   </body>
 </html>
