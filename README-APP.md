@@ -26,6 +26,8 @@ Finalmente, la App quedó así.
 
 <img class="proyectofinal" src="https://github.com/valeriavidelam/SCL016-card-validation/blob/master/src/images/PFINAL1.png?raw=true" alt="ProyectoFinal"> 
 
+https://valeriavidelam.github.io/SCL016-card-validation/src/>
+
 Siento que la app resuelve la necesidad de agilizar un proceso que es bastante cotidiano y a veces por situaciones super ajenas a nosotros se nos dificulta. La idea es que sea un proyecto que evolucione con el tiempo y que vaya creciendo y mejorando conforme la tecnología y la experiencia de usuario lo permita. Que no se estanque y que en un futuro permita ir agregando más funcionalidades.
 
 
