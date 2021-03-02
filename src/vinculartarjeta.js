@@ -4,8 +4,6 @@ import validator from './validator.js';
 //Create the event to my "ValidarTC" bttn to generate the 'validator.js' instruction 
 const bttnValidar = document.getElementById ("validarTC");
 
-//DUDA: He revisado que a veces ponen la opción getElementByid y Eventlistener en una misma línea, ¿Influye en algo?
-
 //I give the instruction that when clicking on the button the validation is generated
 bttnValidar.addEventListener ("click", () => {
 

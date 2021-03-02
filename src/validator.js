@@ -1,6 +1,6 @@
 const validator = {
 
-  //This is the function to present the Numbers.
+  //This is the function to introduce the Numbers.
   isValid: (CCNumber) => {
   
   //Creating a variable to convert the numbers in an Array and then reverse it. 
